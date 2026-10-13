@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Legal · Notix</title>
+  <style>
+  :root { color-scheme: light dark; --texto: #1f2430; --suave: #5b6472; --linea: #e5e7eb; --fondo: #fff; --marca: #facc15; }
+  @media (prefers-color-scheme: dark) { :root { --texto: #e6e9ef; --suave: #9aa4b2; --linea: #2a3040; --fondo: #0f1115; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: 760px; margin: 0 auto; padding: 20px 16px; border-bottom: 1px solid var(--linea); }
+  header a { color: var(--texto); text-decoration: none; }
+  .marca { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+  .marca i { width: 10px; height: 10px; border-radius: 50%; background: var(--marca); }
+  nav { display: flex; gap: 14px; font-size: 14px; color: var(--suave); }
+  nav a { color: var(--suave); }
+  nav a:hover { color: var(--texto); }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 16px 56px; }
+  h1 { font-size: 26px; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  p, li { color: var(--texto); }
+  .legal-fecha { color: var(--suave); font-size: 14px; margin: 0 0 20px; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  code { font-size: 14px; background: rgba(127, 127, 127, 0.14); padding: 1px 5px; border-radius: 4px; }
+  a { color: #3b82f6; }
+</style>
+</head>
+<body>
+  <header>
+    <a class="marca" href="index.html"><i></i>Notix</a>
+    <nav><a href="privacidad.html">Privacidad</a><a href="terminos.html">Términos</a><a href="privacy.html">English</a></nav>
+  </header>
+  <main>
+<h1>Notix</h1>
+<p class="legal-fecha">Textos legales de la extensión de Chrome · Legal texts of the Chrome extension</p>
+<h2>Español</h2>
+<ul>
+  <li><a href="privacidad.html">Política de privacidad</a></li>
+  <li><a href="terminos.html">Términos de uso</a></li>
+</ul>
+<h2>English</h2>
+<ul>
+  <li><a href="privacy.html">Privacy Policy</a></li>
+  <li><a href="terms.html">Terms of Use</a></li>
+</ul>
+  </main>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de privacidad · Notix</title>
+  <style>
+  :root { color-scheme: light dark; --texto: #1f2430; --suave: #5b6472; --linea: #e5e7eb; --fondo: #fff; --marca: #facc15; }
+  @media (prefers-color-scheme: dark) { :root { --texto: #e6e9ef; --suave: #9aa4b2; --linea: #2a3040; --fondo: #0f1115; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: 760px; margin: 0 auto; padding: 20px 16px; border-bottom: 1px solid var(--linea); }
+  header a { color: var(--texto); text-decoration: none; }
+  .marca { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+  .marca i { width: 10px; height: 10px; border-radius: 50%; background: var(--marca); }
+  nav { display: flex; gap: 14px; font-size: 14px; color: var(--suave); }
+  nav a { color: var(--suave); }
+  nav a:hover { color: var(--texto); }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 16px 56px; }
+  h1 { font-size: 26px; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  p, li { color: var(--texto); }
+  .legal-fecha { color: var(--suave); font-size: 14px; margin: 0 0 20px; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  code { font-size: 14px; background: rgba(127, 127, 127, 0.14); padding: 1px 5px; border-radius: 4px; }
+  a { color: #3b82f6; }
+</style>
+</head>
+<body>
+  <header>
+    <a class="marca" href="index.html"><i></i>Notix</a>
+    <nav><a href="privacidad.html">Privacidad</a><a href="terminos.html">Términos</a><a href="privacy.html">English</a></nav>
+  </header>
+  <main>
+<h1>Política de privacidad de Notix</h1>
+<p class="legal-fecha">Vigente desde el 13 de octubre de 2026</p>
+
+<p>Notix es una extensión de Chrome para tomar capturas de una pestaña, grabar secuencias de clics, anotarlas y generar un texto listo para pegar en una herramienta de inteligencia artificial. Esta política explica qué información procesa Notix y dónde queda.</p>
+
+<h2>Lo esencial</h2>
+<ul>
+  <li>Todo lo que Notix procesa se queda en el equipo de la persona. No hay servidores de Notix, ni cuentas, ni registro.</li>
+  <li>Notix no recopila, no envía, no vende y no comparte información con nadie.</li>
+  <li>Notix no usa analítica, cookies ni rastreadores.</li>
+</ul>
+
+<h2>Qué información procesa Notix</h2>
+<p>Solo la que la persona genera al usar la extensión:</p>
+<ul>
+  <li><strong>Capturas de pantalla</strong> de la pestaña visible, tomadas cuando la persona pulsa el atajo o el botón de capturar.</li>
+  <li><strong>Datos de la pestaña capturada</strong>: dirección (URL), título de la página y, al grabar una secuencia, el encabezado de la pantalla y el texto del elemento pulsado. Sirven para nombrar cada captura y describir cada paso.</li>
+  <li><strong>Comentarios, notas y dibujos</strong> que la persona añade sobre las capturas.</li>
+  <li><strong>Preferencias</strong> de la extensión, como la herramienta elegida o los avisos que se pidió no volver a mostrar.</li>
+</ul>
+
+<h2>Dónde queda esa información</h2>
+<ul>
+  <li>En el almacenamiento local del navegador, dentro del equipo de la persona.</li>
+  <li>En la carpeta <code>Descargas/Notix</code> del equipo, como imágenes y archivos de texto, cuando la persona pulsa «Copiar prompt».</li>
+  <li>En el portapapeles del equipo, como texto, en ese mismo momento.</li>
+</ul>
+<p>Notix no transmite nada de esto a ningún servidor.</p>
+
+<h2>Qué decide la persona</h2>
+<p>El texto que Notix copia está pensado para pegarse en una herramienta de inteligencia artificial de terceros, por ejemplo Claude Code. Pegarlo es una decisión de la persona, fuera de Notix, y queda sujeta a las condiciones y a la política de privacidad de ese servicio.</p>
+<p>Las capturas muestran lo que había en pantalla, que puede incluir información personal propia o de otras personas. Notix tapa en el texto del prompt los parámetros sensibles de la dirección (como tokens o contraseñas), pero no altera la imagen. Es responsabilidad de la persona revisar lo que captura y comparte.</p>
+
+<h2>Permisos que pide la extensión y para qué</h2>
+<ul>
+  <li><strong>Pestaña activa y pestañas</strong>: tomar la captura de la pestaña visible y leer su dirección y título.</li>
+  <li><strong>Acceso a sitios web (opcional)</strong>: solo al grabar una secuencia, para detectar los clics en la página. Chrome lo pide la primera vez y la persona puede negarlo.</li>
+  <li><strong>Almacenamiento</strong>: guardar las capturas, las anotaciones y las preferencias en el equipo.</li>
+  <li><strong>Descargas</strong>: escribir las imágenes y el prompt en la carpeta <code>Descargas/Notix</code>.</li>
+  <li><strong>Menú contextual</strong>: ofrecer la captura desde el clic derecho.</li>
+</ul>
+
+<h2>Cómo borrar la información</h2>
+<ul>
+  <li>Cada captura o secuencia se elimina desde la lista de Notix.</li>
+  <li>«Borrar todas las capturas», en Configuración, vacía el almacenamiento de la extensión.</li>
+  <li>Desinstalar la extensión elimina su almacenamiento local.</li>
+  <li>Los archivos de <code>Descargas/Notix</code> se borran como cualquier otro archivo del equipo.</li>
+</ul>
+
+<h2>Menores</h2>
+<p>Notix no está dirigida a menores de 13 años y no recopila información de nadie, con independencia de su edad.</p>
+
+<h2>Cumplimiento de la política de Chrome Web Store</h2>
+<p>El uso que Notix hace de la información obtenida a través de las API de Chrome se ajusta a la Política del Programa para Desarrolladores de Chrome Web Store, incluidos los requisitos de Uso Limitado.</p>
+
+<h2>Cambios</h2>
+<p>Si esta política cambia, la nueva versión se publica en esta misma dirección con su fecha de vigencia, y la extensión avisa del cambio.</p>
+
+<h2>Contacto</h2>
+<p>Notix es desarrollada por Antonio Espinosa. Cualquier pregunta sobre esta política se puede enviar a través de <a href="https://github.com/Soytonixx/notix-legal/issues">github.com/Soytonixx/notix-legal/issues</a>.</p>
+  </main>
+</body>
+</html>
