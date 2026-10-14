@@ -30,7 +30,7 @@
   @keyframes salir { to { opacity: 0; transform: translateY(-8px); } }
   @media (prefers-reduced-motion: reduce) { ::view-transition-old(root), ::view-transition-new(root), .doc, .miga { animation: none !important; } }
   /* Miga de pan: de dónde se viene y dónde se está; las pestañas, a la derecha. */
-  .miga { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 18px; font-size: 13px; color: var(--muted); }
+  .miga { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; font-size: 13px; color: var(--muted); }
   .miga-ruta { display: flex; align-items: center; gap: 8px; }
   .miga-ruta a { color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
   .miga-ruta a:hover { color: var(--text); text-decoration: none; }
@@ -56,10 +56,6 @@
   .bandera { width: 16px; height: 12px; border-radius: 2px; flex: none; }
 
   main { max-width: 820px; margin: 0 auto; padding: 28px 20px 48px; }
-  .tabs { display: inline-flex; gap: 4px; padding: 3px; margin: 0; border-radius: 10px; background: var(--panel-2); border: 1px solid var(--border); }
-  .tabs a { padding: 7px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; color: var(--muted); }
-  .tabs a:hover { color: var(--text); text-decoration: none; }
-  .tabs a[aria-current="page"] { background: var(--panel); color: var(--text); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35); }
 
   .doc { background: var(--panel); border: 1px solid var(--border); border-radius: 18px; padding: 34px 38px 38px; }
   .doc h1 { margin: 0 0 6px; font-size: 26px; line-height: 1.25; font-weight: 600; }
