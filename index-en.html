@@ -34,6 +34,8 @@
   .idioma a { padding: 5px 10px; border-radius: 7px; font-size: 12.5px; font-weight: 500; color: var(--muted); }
   .idioma a:hover { color: var(--text); text-decoration: none; }
   .idioma a[aria-current="true"] { background: var(--panel); color: var(--text); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35); }
+  .idioma a { display: inline-flex; align-items: center; gap: 6px; }
+  .bandera { width: 16px; height: 12px; border-radius: 2px; flex: none; }
 
   main { max-width: 820px; margin: 0 auto; padding: 28px 20px 48px; }
   .tabs { display: inline-flex; gap: 4px; padding: 3px; margin: 0 0 18px; border-radius: 10px; background: var(--panel-2); border: 1px solid var(--border); }
@@ -74,8 +76,8 @@
     <div class="topbar-inner">
       <a class="brand" href="index-en.html"><img src="assets/icon48.png" alt="" width="30" height="30" /><span>Notix</span></a>
       <nav class="idioma" aria-label="Idioma / Language">
-        <a href="index.html">🇨🇴 Español</a>
-        <a href="#" aria-current="true">🇺🇸 English</a>
+        <a href="index.html"><svg class="bandera" viewBox="0 0 16 12" aria-hidden="true"><rect width="16" height="6" fill="#FCD116"/><rect y="6" width="16" height="3" fill="#003893"/><rect y="9" width="16" height="3" fill="#CE1126"/></svg>Español</a>
+        <a href="#" aria-current="true"><svg class="bandera" viewBox="0 0 16 12" aria-hidden="true"><rect width="16" height="12" fill="#fff"/><g fill="#B22234"><rect y="0" width="16" height="0.92"/><rect y="1.85" width="16" height="0.92"/><rect y="3.69" width="16" height="0.92"/><rect y="5.54" width="16" height="0.92"/><rect y="7.38" width="16" height="0.92"/><rect y="9.23" width="16" height="0.92"/><rect y="11.08" width="16" height="0.92"/></g><rect width="6.4" height="6.46" fill="#3C3B6E"/></svg>English</a>
       </nav>
     </div>
   </header>
